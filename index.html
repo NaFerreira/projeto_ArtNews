@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natan Ferreira">
+    <meta name="description" content="Front-End Practice">
+    <meta name="author" content="Julia Moutaqi">
+    <meta name="description" content="Figma Web-Template Creator">
+    <!-- Font: Libre Caslon Display  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+    <!-- Font: Inter -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
+
+    <script src="js/script.js" defer></script>
+    <title>ArtJunks</title>
+
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="headerMenu">
+            <div class="linkLogo"><a href="#">artjunks</a>
+            </div>
+            <button class="ham-menu"></button>
+                <nav>
+                    <ul class="navMenu-list">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Artists</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">Company</a>
+                        </li>
+                        <li>
+                            <a class="default-btn" href="#">Get started</a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+
+        <div class="heroContainer">
+            <span class="trace"></span>
+            <h1 class="mainTitle">Art pieces made easy accessible for everyone</h1>
+            <p>Learn, buy and trade art pieces of your favorite artist around the world by using crypto currencies.</p>
+            <a class="default-btn" href="#">Learn more</a>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+
+        <h2 class="containerTitle max-width">Newest reads</h2>
+        <div class="container max-width">
+            <article class="thumbs">
+                <picture>
+                    <source media="(max-width: 46rem)" srcset="image/thumb1-sm.png">
+                    <source media="(max-width: 90rem)" srcset="image/thumb1-md.png">
+                    <img src="image/thumb1-lg.png" alt="thumbnail">
+                    <figcaption>5, August 2022</figcaption>
+                    <p>France seeks to protect Russia's Morozov collection from seizure as masterpieces return home</p>
+                    <a href="#">Read more &#10132;</a>
+                </picture>
+            </article>
+
+            <article class="thumbs">
+                <picture>
+                    <source media="(max-width: 46rem)" srcset="image/thumb2-sm.png">
+                    <source media="(max-width: 90rem)" srcset="image/thumb2-md.png">
+                    <img src="image/thumb2-lg.png" alt="thumbnail">
+                    <figcaption>5, August 2022</figcaption>
+                    <p>Picasso’s muse as sea creature—will it break $100m at Sotheby's New York sale?</p>
+                    <a href="#">Read more &#10132;</a>
+                </picture>
+            </article>
+
+            <article class="thumbs">
+                <picture>
+                    <source media="(max-width: 46rem)" srcset="image/thumb3-sm.png">
+                    <source media="(max-width: 90rem)" srcset="image/thumb3-md.png">
+                    <img src="image/thumb3-lg.png" alt="thumbnail">
+                    <figcaption>5, August 2022</figcaption>
+                    <p>Venice Biennale 2022: all the national pavilions, artists and curators</p>
+                    <a href="#">Read more &#10132;</a>
+                </picture>
+            </article>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footerWrapper">
+            <span class="copyright">&copy;&nbsp;Copiryght</span>
+            <p>Front-End por Natan Ferreira</p>
+            <p>Figma Creator @Juliamoutaqi</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
